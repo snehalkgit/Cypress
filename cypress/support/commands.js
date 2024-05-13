@@ -33,3 +33,9 @@ Cypress.Commands.add('formDetails',(fn,ln,email,msg) => {
     cy.get('input[name="email"]').type(email)
     cy.get('textarea[name="message"]').type(msg)
  })
+
+
+ Cypress.Commands.add('getIframeBody',(id)=>{
+    return cy.get(`#${id}`)
+    .its('0.contentDocument.body').should('not.be.empty').then(cy.wrap)
+ })

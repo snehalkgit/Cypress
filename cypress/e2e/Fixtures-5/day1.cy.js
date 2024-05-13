@@ -1,10 +1,10 @@
 import examples from '../../fixtures/examples.json';
 /// <reference types="cypress" />
 
-// let chinmay = {
+// let snehal = {
 //     firstName:"snehal",
 //     lastName:"kamble",
-//     email:"chinmaydsnehalkmable1564@gmail.com",
+//     email:"snehalkmable1564@gmail.com",
 //     msg:"I am learning js"
 // }
 

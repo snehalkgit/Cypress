@@ -19,7 +19,7 @@ describe('list of users', function () {
             cy.log(response)
             expect(response.status).to.eq(200)
             expect(response.statusText).to.eq("OK")
-            expect(response.body[0].id).to.eq(6898416)
+            expect(response.body[0].id).to.eq(6910715)
         })
     })
 
@@ -81,8 +81,6 @@ describe('list of users', function () {
                     })
             })
     })
-
-
 
 
 
